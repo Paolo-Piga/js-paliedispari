@@ -1,6 +1,6 @@
 // propmt per fare inserire all'utente pari o dispari
 let UserChoice = prompt("Scrivi `pari` o `dispari`")
-console.log("Hai fatto la tua scelta");
+console.log("Hai fatto la tua scelta:", UserChoice);
 
 // propmt per fare inserire un numero da 1 a 5 all'utente
 let Usernumero = parseInt(prompt("Inserisci un numero da 1 a 5"));
@@ -14,10 +14,10 @@ function PcChoice() {
 let PcChoiceNumber = PcChoice() ;
 console.log("Il Pc ha scelto:", PcChoiceNumber);
 
-// metto una condizione che dichiara che se il pc ha messo dispari o pari vince e stessa cosa per l'utente
+// sommo i due numeri
+let somma = UserChoice + PcChoice;
+console.log(somma);
 
-if{
 
-}if else{
-    
-}
+// utilizzo una funzione per dichiarare il vincitore
+function
