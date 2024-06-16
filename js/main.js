@@ -18,6 +18,14 @@ console.log("Il Pc ha scelto:", PcChoiceNumber);
 let somma = UserChoice + PcChoice;
 console.log(somma);
 
+let soluzione = risultato(somma);
+console.log(`Il risultato è:`, soluzione);
 
-// utilizzo una funzione per dichiarare il vincitore
-function
+
+// utilizzo un if per dichiarare chi ha vinto
+if(UserChoice === soluzione){
+    console.log("Se il vincitore, complimenti")
+} else {
+    console.log("Spiacente, hai perso")
+}
+
